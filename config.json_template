@@ -1,0 +1,9 @@
+{
+  "huoju": {
+    "https": "https://huoju.co",
+    "wss": "wss://huoju.co:443",
+    "group": 0,
+    "apikey": "<your-api-key>",
+    "secret": "<your-api-secret>"
+  }
+}
