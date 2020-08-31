@@ -7,7 +7,6 @@ from pprint import pprint
 from util import *
 
 
-
 @click.command()
 @click.option("--config", type=str, default="config.json")
 def run(config):

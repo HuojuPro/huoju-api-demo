@@ -19,8 +19,8 @@ from util import *
 #logger = log.get_logger()
 
 GROUP_ID = 1
-API_KEY = "BclE7dBGbS1AP3VnOuq6s8fJH0fWbH7r"
-SECRET = "fAZcQRUMxj3eX3DreIjFcPiJ9UR3ZTdgIw8mxddvtcDxLoXvdbXJuFQYadUUsF7q"
+API_KEY = "BclE7dBGbS1AP3VnOrq6sxfJH0fWbH7r"
+SECRET = "eAZcQRUMxj3eX3DreIjFcPiJ9UR3ZTdgIw8mxddvtcDxLoXvdbXJuFQYadUUsF7x"
 
 SANDBOX_URL = f"wss://huoju.co:443/{GROUP_ID}/{ROUTE_PREFIX}/stream"
 
@@ -221,7 +221,7 @@ class Client(WebSocketClientFactory):
         """ get exchange supported product list
         TODO: fake now. Refer to query_pub_products.py
         """
-        return ['BTC/USDT', 'BTMX/USDT', 'ETH/USDT', 'ETC/USDT', 'PAX/USDT', 'EOS/USDT', 'XRP/USDT', 'ETH/BTC']
+        return ['BTC/USDT', 'BCH/USDT', 'ETH/USDT', 'ETC/USDT', 'BSV/USDT', 'EOS/USDT', 'XRP/USDT']
 
     def get_channels(self):
         """ get all supported sub/unsub channels """

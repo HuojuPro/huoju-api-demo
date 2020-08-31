@@ -47,7 +47,7 @@ class ClientProtocol(WebSocketClientProtocol):
 
 class Client(WebSocketClientFactory):
     def __init__(self, loop, feed_url, key='', secret=''):
-        self.name = "BitMax-WebSocket"
+        self.name = "Huoju-WebSocket"
         self.loop = loop
         self.connected = asyncio.Event()
         self.disconnected = asyncio.Event()
