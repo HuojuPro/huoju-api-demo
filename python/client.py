@@ -22,7 +22,7 @@ GROUP_ID = 1
 API_KEY = "BclE7dBGbS1AP3VnOrq6sxfJH0fWbH7r"
 SECRET = "eAZcQRUMxj3eX3DreIjFcPiJ9UR3ZTdgIw8mxddvtcDxLoXvdbXJuFQYadUUsF7x"
 
-SANDBOX_URL = f"wss://huoju.co:443/{GROUP_ID}/{ROUTE_PREFIX}/stream"
+SANDBOX_URL = f"wss://huoju.ink:443/{GROUP_ID}/{ROUTE_PREFIX}/stream"
 
 Channels = ['order', 'trades', 'ref-px', 'bar', 'summary', 'depth', 'bbo']
 
